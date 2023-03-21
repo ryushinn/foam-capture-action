@@ -27,7 +27,8 @@
   "dependencies": {
     "@actions/core": "^1.2.6",
     "eslint": "3.19.0",
-    "foam-capture": "^0.0.3"
+    "foam-capture": "^0.0.3",
+    "yarn": "^1.22.19"
   },
   "devDependencies": {
     "@types/jest": "^26.0.15",
