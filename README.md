@@ -33,7 +33,8 @@ jobs:
     - run: |
         git config --local user.email "example@gmail.com"
         git config --local user.name "Your name"
-        git commit -m "Captured from workflow trigger" -a
+        git add --all
+        git commit -m "Captured from workflow trigger"
         git push -u origin master
 ```
 
