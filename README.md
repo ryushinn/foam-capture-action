@@ -2,6 +2,10 @@
   <a href="https://github.com/anglinb/foam-capture-action/actions"><img alt="typescript-action status" src="https://github.com/anglinb/foam-capture-action/workflows/build-test/badge.svg"></a>
 </p>
 
+<p align="center">
+  this is a modified version of original repo (anglinb/foam-capture-action) which addresses some dependency issues and don't run cleanup.
+</p>
+
 # Capture knowledge into [foam knowledge base](https://foambubble.github.io/foam/)!
 
 [Foam]() is knowledge graph suit that allows you to collect, visualize and interrelate data. This action allows you to quickly capture your thoughts to an inbox to revisit them later. 
