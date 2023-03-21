@@ -22,7 +22,9 @@ async function run(): Promise<void> {
     }
     const foam = await opinionatedBootstrap(workspace)
     await captureToInbox(foam, capture)
-    await cleanupReferences(foam, {'without-extensions': undefined})
+
+    // simply omit the cleanup program as I want to run this action in edit-branch instead of deploy-branch
+    // await cleanupReferences(foam, {'without-extensions': undefined})
 
     core.setOutput('time', new Date().toTimeString())
   } catch (error) {
